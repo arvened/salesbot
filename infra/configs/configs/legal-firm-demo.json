@@ -1,0 +1,20 @@
+{
+  "clientId": "legal-firm-demo",
+  "clientName": "Юридична компанія LEX",
+  "businessType": "legal",
+  "businessDescription": "Юридична компанія LEX. Корпоративне право, трудові спори, нерухомість.",
+  "language": ["uk", "ru"],
+  "tone": "professional",
+  "services": [
+    { "name": "Консультація (1 год)", "price": 1500, "currency": "грн", "duration": 60 },
+    { "name": "Складання договору", "price": 3000, "currency": "грн" },
+    { "name": "Представництво в суді", "price": 10000, "currency": "грн" },
+    { "name": "Реєстрація ТОВ/ФОП", "price": 2500, "currency": "грн" }
+  ],
+  "qualificationQuestions": [
+    { "id": "area", "question": "З якого правового питання вам потрібна допомога?", "type": "choice", "choices": ["Корпоративне право", "Трудовий спір", "Нерухомість", "Інше"] }
+  ],
+  "managerTelegramId": "@your_manager_username",
+  "notifyOnNewLead": true,
+  "maxMessagesPerUser": 20
+}
