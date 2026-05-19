@@ -1,0 +1,23 @@
+{
+  "clientId": "beauty-salon-demo",
+  "clientName": "Beauty Studio Lena",
+  "businessType": "beauty_salon",
+  "businessDescription": "Студія краси Beauty Studio Lena у Києві. Манікюр, педикюр, нарощування вій, брови.",
+  "language": ["uk", "ru"],
+  "tone": "friendly",
+  "services": [
+    { "name": "Манікюр класичний", "price": 350, "currency": "грн", "duration": 60 },
+    { "name": "Манікюр гель-лак", "price": 450, "currency": "грн", "duration": 75 },
+    { "name": "Педикюр", "price": 500, "currency": "грн", "duration": 90 },
+    { "name": "Нарощування вій 2D", "price": 700, "currency": "грн", "duration": 90 },
+    { "name": "Нарощування вій 3D-5D", "price": 900, "currency": "грн", "duration": 120 },
+    { "name": "Корекція вій", "price": 350, "currency": "грн", "duration": 60 },
+    { "name": "Оформлення брів", "price": 250, "currency": "грн", "duration": 45 }
+  ],
+  "qualificationQuestions": [
+    { "id": "service", "question": "Яка послуга вас цікавить?", "type": "choice", "choices": ["Манікюр", "Педикюр", "Нарощування вій", "Брови"] }
+  ],
+  "managerTelegramId": "@your_manager_username",
+  "notifyOnNewLead": true,
+  "maxMessagesPerUser": 30
+}
