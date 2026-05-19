@@ -1,0 +1,20 @@
+{
+  "clientId": "online-school-demo",
+  "clientName": "Школа програмування CodeStart",
+  "businessType": "education",
+  "businessDescription": "Онлайн-школа програмування. Курси Python, JavaScript, React, Data Science.",
+  "language": ["uk", "ru"],
+  "tone": "friendly",
+  "services": [
+    { "name": "Python для початківців", "price": 4900, "currency": "грн" },
+    { "name": "JavaScript + React", "price": 6900, "currency": "грн" },
+    { "name": "Data Science", "price": 8900, "currency": "грн" },
+    { "name": "Пробний урок", "price": 0, "currency": "грн" }
+  ],
+  "qualificationQuestions": [
+    { "id": "experience", "question": "Який у вас досвід програмування?", "type": "choice", "choices": ["Нульовий", "Базовий", "Середній", "Продвинутий"] }
+  ],
+  "managerTelegramId": "@your_manager_username",
+  "notifyOnNewLead": true,
+  "maxMessagesPerUser": 40
+}
